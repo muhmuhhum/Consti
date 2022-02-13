@@ -24,6 +24,6 @@ jobs:
     - name: Pack
       run: dotnet pack
     - name: Publish Nuget to GitHub registry
-      run: dotnet nuget push ./nupkg -k ${GITHUB_TOKEN} -s https://nuget.pkg.github.com/muhmuhhum/index.json --skip-duplicate --no-symbols true
+      run: dotnet nuget push ./Consti/nupkg -k ${GITHUB_TOKEN} -s https://nuget.pkg.github.com/muhmuhhum/index.json --skip-duplicate --no-symbols true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
