@@ -80,13 +80,7 @@ public abstract class BaseCommand
 
     private void AddConStringToUserSecrets()
     {
-        var currentFolder = Environment.CurrentDirectory;
-        var appSettings = Directory.GetFiles(currentFolder, "*.csproj");
-        if (appSettings.Length != 1)
-        {
-            Console.WriteLine("Run in Directory with Csproj file");
-            return;
-        } 
+        throw new NotImplementedException();
     }
 
     private void AddConStringToAppSettings()

@@ -15,10 +15,4 @@
       <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="4.0.1" />
     </ItemGroup>
 
-    <ItemGroup>
-      <None Update="appsettings.Development.json">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-
 </Project>

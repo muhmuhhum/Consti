@@ -1,5 +1,4 @@
-﻿using Consti;
-using Consti.Commands;
+﻿using Consti.Commands;
 using McMaster.Extensions.CommandLineUtils;
 
 var app = new CommandLineApplication();
